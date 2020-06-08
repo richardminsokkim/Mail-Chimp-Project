@@ -40,7 +40,7 @@ app.post("/", function(req, res){
 
   const options = {
     method: "POST",
-    auth: "kimochi:f825ec939686957e66195b6d5e33fb74-us19"
+    auth: ""
   }
 
   const request = https.request(url, options, function(response) {
@@ -74,8 +74,3 @@ app.listen(process.env.PORT || 3000, function(){
 });
 
 
-//API KEY
-// f825ec939686957e66195b6d5e33fb74-us19
-
-//LIST id
-// 37c386ae97
